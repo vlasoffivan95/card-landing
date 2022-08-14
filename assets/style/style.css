@@ -12,7 +12,7 @@
     position: relative;
     width: 480px;    
     height: 280px;
-    margin: 300px 20px 300px 25px;   
+    margin: 200px 30px 200px 25px;   
 }
 
 .image-for-card {
@@ -40,11 +40,10 @@
 }
 
 .h1-for-card, .h2-for-card, .h3-for-card {
-    color:white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;    
     position:absolute;
-    left: 75px;      
-    font-weight: 500;
+    left: 75px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 .h1-for-card {    
