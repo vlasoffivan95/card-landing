@@ -12,7 +12,8 @@
     position: relative;
     width: 480px;    
     height: 280px;
-    margin: 1vh 2vw 1vh 2vw;   
+    margin-top: 10vh;
+    margin-left:2vw;   
 }
 
 .image-for-card {
