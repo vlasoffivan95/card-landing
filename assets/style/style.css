@@ -5,21 +5,19 @@
 }
 
 .card {
-    display:inline-block;  
-    border:1px;
+    display:inline-block;    
     border-radius: 10px;    
-    padding: 10px;
+    padding: 45px 45px 45px 75px;
     position: relative;
-    width: 480px;    
-    height: 280px;
+    width: 480px;
     margin-top: 10vh;
     margin-left:2vw;   
 }
 
 .image-for-card {
     position: absolute;
-    top:45px;
-    left: 390px;
+    top:35px;
+    right: 20px;
     width: 35px;
     height: 35px;
     fill: white;
@@ -40,46 +38,42 @@
     background: linear-gradient(90deg, rgba(203,250,232,1) 0%, rgba(98,255,190,1) 37%); 
 }
 
-.h1-for-card, .h2-for-card, .h3-for-card {
+.h1-for-card, .h2-for-card, .p3-for-card {
     color:white;    
-    position:absolute;
-    left: 75px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 .h1-for-card {    
     font-size: 24px;
-    top:50px;
+    margin-bottom: 30px;
 }
 
 .h2-for-card {    
     font-size: 40px;
-    top:100px;
+    margin-bottom: 50px;
 }    
 
-.h3-for-card {
-    top:200px;
+.p3-for-card {  
     font-size: 22px;
 }
 
+.card::after, 
 .card::before {
     content: "";
     position: absolute;
-    border-radius: 180px;
+    border-radius: 50%;
     background-color: white;
-    opacity: 0.3;    
-    padding: 120px;
+    opacity: 0.3;   
+    width: 240px;
+    height: 240px;
+}
+
+.card::before {
     top:-30px;
     left: 340px;
 }
 
 .card::after {
-    content: "";
-    position: absolute;
-    border-radius: 180px;
-    background-color: white;
-    opacity: 0.3;
-    padding: 120px;
     left: 280px;
     top:150px;
 }
